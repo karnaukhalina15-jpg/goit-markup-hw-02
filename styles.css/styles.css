@@ -1,0 +1,36 @@
+header a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #062074;
+    text-decoration: none;
+}
+heder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #2e2f42;
+}
+.nav,
+.nav:hover,
+.nav:focus {
+    display: flex;
+    gap: 30px;
+}
+.hero  {
+    color: #ffffff;
+    background-color: #2e2f42;
+    font-size: 56px;
+    text-align: center;
+}
+.btn-primary,
+.button-primary:hover,
+.button-primary:focus {
+   height: 56px;
+   width: 169px;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    border: none;
+    padding: px 30px;
+    font-size: 16px;
+}
