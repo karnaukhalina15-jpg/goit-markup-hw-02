@@ -1,9 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 16px;
-    color: #2e2f42;
+    color: #434455;
     background-color: #fff;
-    line-height: 2.4;
+    line-height: 1,5;
     letter-spacing: 0.02em;
 }
 a {
@@ -13,79 +14,81 @@ a {
 }
 a:hover, 
 a:active,
-a:focus {
+a:focus 
+{
     color: #404bbf;
 }
-li {
+ul {
     list-style: none;
 }
 .logo {
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
     color: #4d5ae5;
-    line-height: 2.1;
-    Letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .logo-text {
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
     color: #2e2f42;
-    line-height: 2.1;
-    Letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-.main-nav {
-    line-height: 2.4;
-    letter-spacing: 0.02em;
-} 
-.contact{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 400;
-    color: #434455;
-    line-height: 2.4;
-    letter-spacing: 0.02em;
-    font-style: normal;
-}
-.main-hero {
-    background-color: #fff;
 }
 .section-hero {
     background-color: #2e2f42;
-    color: #ffffff;
+}
+.main-nav-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}   
+.contact {
+    font-family: inherit;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   font-style: normal;
 }
 h1 {
-    font-size: 56px; 
-    font-weight: 700;
     color: #ffffff; 
-    text-align: center;
-    line-height: 6.0;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .btn-primary {
-    width: 169px;
-    height: 56px;
-    line-height: 2.4;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 500;
-    color: #ffffff;
-    background-color: #4d5ae5;
-    cursor: pointer;
+border-radius: 4px;
+width: 169px;
+height: 56px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+font-family: inherit;
+color: #ffffff;
+background-color: #4d5ae5;
+cursor: pointer;
 }
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: #404bbf;
 }
 h2 {
-    font-size: 36px;
     font-weight: 700;
-    line-height: 4.0;
-    letter-spacing: 0.02em; 
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 .team-section {
    background-color: #f4f4fd; 
@@ -95,17 +98,13 @@ h2 {
     text-align: left
 }
 h3 {
-    font-size: 20px;
+    color: #2e2f42;
     font-weight: 500;
-    line-height: 2.4;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
-p {
-    color: #434455;
-    font-weight: 400;
-    line-height: 2.4;
-    letter-spacing: 0.02em;  
-}
+
 .team-item {
     background-color: #ffffff;
 }
