@@ -81,6 +81,7 @@ h1 {
     font-weight: 500;
     color: #ffffff;
     background-color: #4d5ae5;
+    cursor: pointer;
 }
 .btn-primary:hover {
     background-color: #404bbf;
