@@ -19,7 +19,7 @@ a:active{
     color: #404bbf;
 }
 ul li {
-    list-style: none;
+    list-style-type: none;
 }
 .logo {
     font-family: "Raleway", sans-serif;
