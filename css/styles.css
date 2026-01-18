@@ -3,31 +3,29 @@ body {
     font-size: 16px;
     color: #2e2f42;
     background-color: #fff;
-    line-height: 2,4;
-    letter-spacing: 0,02em;
+    line-height: 2.4;
+    letter-spacing: 0.02em;
 }
 a {
-   font-size: 12px ;
-   line-height: 1,4;
-   letter-spacing: 0,04em;
     text-decoration: none;
     font-family: inherit;
     color: inherit;
 }
 a:hover, 
-a:active{
+a:active,
+a:focus {
     color: #404bbf;
 }
-ul li {
-    list-style-type: none;
+li {
+    list-style: none;
 }
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #4d5ae5;
-    line-height: 2,1;
-    Letter-spacing: 0,03em;
+    line-height: 2.1;
+    Letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .logo-text {
@@ -35,17 +33,21 @@ ul li {
     font-size: 18px;
     font-weight: 700;
     color: #2e2f42;
-    line-height: 2,1;
-    Letter-spacing: 0,03em;
+    line-height: 2.1;
+    Letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.main-nav {
+    line-height: 2.4;
+    letter-spacing: 0.02em;
+} 
 .contact{
     font-family: inherit;
     font-size: 16px;
     font-weight: 400;
     color: #434455;
-    line-height: 2,4;
-    letter-spacing: 0,02em;
+    line-height: 2.4;
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 .main-hero {
@@ -60,13 +62,13 @@ h1 {
     font-weight: 700;
     color: #ffffff; 
     text-align: center;
-    line-height: 6,0;
-    letter-spacing: 0,02em;
+    line-height: 6.0;
+    letter-spacing: 0.02em;
 }
-.btn-primary{
+.btn-primary {
     width: 169px;
     height: 56px;
-    line-height: 2,4;
+    line-height: 2.4;
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
@@ -74,14 +76,15 @@ h1 {
     background-color: #4d5ae5;
     cursor: pointer;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
     background-color: #404bbf;
 }
 h2 {
     font-size: 36px;
     font-weight: 700;
-    line-height: 4,0;
-    letter-spacing: 0,02em; 
+    line-height: 4.0;
+    letter-spacing: 0.02em; 
     text-align: center;
 }
 .team-section {
@@ -94,14 +97,14 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: 500;
-    line-height: 2,4;
-    letter-spacing: 0,02em;
+    line-height: 2.4;
+    letter-spacing: 0.02em;
 }
 p {
     color: #434455;
     font-weight: 400;
-    line-height: 2,4;
-    letter-spacing: 0,02em;  
+    line-height: 2.4;
+    letter-spacing: 0.02em;  
 }
 .team-item {
     background-color: #ffffff;
@@ -114,8 +117,8 @@ footer {
 }
 .text-footer {
     font-weight: 400;
-    line-height: 2,4;
-    letter-spacing: 0,02em;  
+    line-height: 2.4;
+    letter-spacing: 0.02em;  
     color: #f4f4fd;
 }
 .footer-logo {
